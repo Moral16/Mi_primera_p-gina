@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Petit+Formal+Script&family=Satisfy&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 20px;
+}
+
+
+img{
+    width: 150px;
+    height: 100%;
+}
+
+h1{
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    margin: 8px 0 8px 0;
+    font-family: "Petit Formal Script", cursiva;
+    .petit-formal satisfy-regular {
+        font-family: "Petit Formal Script", cursiva;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+h2{
+    font-size: 30px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.presentación{
+    background-image: url(./imagenes/Inicio.png);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 350px;
+}
+.presentación1 {
+    background-image: url(./imagenes/Características\ del\ producto.png);
+    background-position: left left left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 350px; 
+}
+.presentación2 {
+    background-image: url(./imagenes/Propiedades\ y\ características.png);
+    background-position: left left left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 400px;
+}
+.presentación3 {
+    background-image: url(./imagenes/Nuestros\ servicios.png);
+    background-position: left left left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    padding: 250px;
+
+
+}   
+.presentación4 {
+    background-image: url(./imagenes/Sobre\ mi.png);
+    background-position: right right right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    padding: 240px;
+}   
+
+.presentación5 {
+    background-image: url(./imagenes/Colecciones.png);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    padding: 150px;
+}    
+   .presentación6 {
+    background-image: url(./imagenes/Colecciones\ 2.png);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    padding: 150px;
+   }
+   .presentación7 {
+    background-image: url(./imagenes/Eventos.png);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    line-height:9;
+    color: rgb(255, 255, 255);
+    padding: 150px;
+   }
+ .presentación8 {
+    background-image: url(./imagenes/Contactos.png);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height:1.5;
+    color: rgb(255, 255, 255);
+    padding: 150px;
+ }  
+
+.presentación p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.caja img{
+    border-radius: 100%;
+    border-image-width: 100%;
+}
+.caja p{
+    font-size: 19px;
+}
+@media screen and (max-width: 400px){
+    .contenedor{
+       width: 100%;
+    }
+    aside {
+        display: none;
+    }
+}
